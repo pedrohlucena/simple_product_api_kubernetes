@@ -8,7 +8,7 @@ metadata:
   labels:
     io.kompose.service: app
     app: simple-product-api
-  name: app
+  name: app-clusterip
 spec:
   ports:
     - name: "3003"

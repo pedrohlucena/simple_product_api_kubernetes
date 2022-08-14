@@ -5,7 +5,7 @@ metadata:
   labels:
     io.kompose.service: db-claim0
     app: simple-product-api
-  name: db-claim0
+  name: persistent-volume-claim
 spec:
   accessModes:
     - ReadWriteOnce

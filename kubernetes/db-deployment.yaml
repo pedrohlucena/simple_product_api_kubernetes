@@ -34,10 +34,10 @@ spec:
           resources: {}
           volumeMounts:
             - mountPath: /data/db
-              name: db-claim0
+              name: persistent-volume-claim
       restartPolicy: Always
       volumes:
-        - name: db-claim0
+        - name: persistent-volume-claim
           persistentVolumeClaim:
-            claimName: db-claim0
+            claimName: persistent-volume-claim
 status: {}
